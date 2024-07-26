@@ -1,0 +1,86 @@
+body{
+    background-color: rgb(53, 91, 205);
+}
+nav{
+    background-color: rgb(166, 182, 195);
+}
+ul{
+    list-style-type: none;
+    width: 50px; 
+    display: flex;
+    margin-left: 1000px;
+   
+}
+li a{
+    color: black;
+    display: flex;
+    padding: 8px 16px;
+    font-size: 25px;
+}
+li a:hover{
+    background-color: rgb(105, 167, 147);
+}
+p{
+    margin-top:250px;
+    font-size: 80px;
+    color: bisque;
+    text-align: center;
+}
+.dot{
+    height: 50px;
+    width: 50px;
+    background-color:aliceblue;
+    border-radius: 50%;
+    position: relative;
+    animation-name: ani1;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes ani1{
+    0%{top: 260px;left: 420px;}
+    25%{top: 260px;left:1100px;}
+    50%{top: 470px;left:1100px;}
+    75%{top: 470px;left: 420px;}
+    100%{top: 260px;left: 420px;}
+}
+.amri{
+    border-radius: 20%;
+    margin-left: 100px;
+    width: 600px;
+    height: 525px;
+    background-color: rgb(238, 228, 228);
+    color: black;
+    font-size: medium;
+    margin-top:150px;
+    animation-name: ani2;
+    animation-duration: 2s;
+}
+h1{
+    text-align: center;
+    padding-top: 10px;
+}
+.b
+{
+    color:black;
+    font-size: 25px;
+    text-align: center;
+    margin-top: 0px;
+}
+.amri1{
+    border-radius: 20%;
+    margin-left: 800px;
+    width: 600px;
+    height: 525px;
+    background-color: rgb(238, 228, 228);
+    color: black;
+    font-size: medium;
+    margin-top:0px;
+}
+@keyframes ani2{
+    0%{
+        top:1000px;
+    }
+    25%{
+        top:250px;
+    }
+}
